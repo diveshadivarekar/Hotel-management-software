@@ -13,7 +13,6 @@ void book_room();
 void mini_casino();
 void GuessGame(int,int*);
 void getInfo();
-void color();
 
 struct {
     char name[20];
@@ -393,7 +392,4 @@ void GuessGame(int amount_bet, int* inhand_cash)
     }
 }
 
-void color()
-{
-    system("COLOR F2");
-}
+
